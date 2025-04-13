@@ -1,0 +1,350 @@
+Cluster 0
+                                              Crm Cd Desc   AREA NAME  \
+DR_NO                                                                   
+240604934                        BATTERY - SIMPLE ASSAULT   Hollywood   
+242107187                        BATTERY - SIMPLE ASSAULT     Topanga   
+240607797                                   OTHER ASSAULT   Hollywood   
+240904953                        BATTERY - SIMPLE ASSAULT    Van Nuys   
+240506784                               CRIMINAL HOMICIDE      Harbor   
+...                                                   ...         ...   
+251904183    ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER     Mission   
+251904146  ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT     Mission   
+251704149                        BATTERY - SIMPLE ASSAULT  Devonshire   
+251704066                        BATTERY - SIMPLE ASSAULT  Devonshire   
+251904184    ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER     Mission   
+
+                                      Mocodes vict age range Vict Sex  \
+DR_NO                                                                   
+240604934                      1822 0400 0416    young adult        F   
+242107187                 0448 2021 0361 0603          adult        M   
+240607797            1501 0447 0913 2021 0361          adult        M   
+240904953                           0447 0416    young adult        F   
+240506784  1309 1100 1310 0430 1407 0906 1822    young adult        M   
+...                                       ...            ...      ...   
+251904183       1402 1815 0334 0913 1259 2024       teenager        M   
+251904146       1259 0416 0417 0913 1817 2024       teenager        F   
+251704149                      1601 0448 1402         senior        F   
+251704066                 0400 1259 1822 0356       teenager        M   
+251904184       1402 1815 0334 0913 1259 2024       teenager        M   
+
+          Vict Descent                                     Weapon Desc  \
+DR_NO                                                                    
+240604934            B  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+242107187            O  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+240607797            B                     UNKNOWN WEAPON/OTHER WEAPON   
+240904953            H                     UNKNOWN WEAPON/OTHER WEAPON   
+240506784            H                                        HAND GUN   
+...                ...                                             ...   
+251904183            H                KNIFE WITH BLADE 6INCHES OR LESS   
+251904146            H  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+251704149            B  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+251704066            H  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+251904184            H                KNIFE WITH BLADE 6INCHES OR LESS   
+
+           Premis Cd time_of_day  
+DR_NO                             
+240604934      517.0   afternoon  
+242107187      102.0     evening  
+240607797      502.0   afternoon  
+240904953      210.0     evening  
+240506784      103.0   afternoon  
+...              ...         ...  
+251904183      720.0     morning  
+251904146      721.0   afternoon  
+251704149      720.0   afternoon  
+251704066      721.0   afternoon  
+251904184      720.0     morning  
+
+[16052 rows x 9 columns]
+Cluster 1
+                                                 Crm Cd Desc    AREA NAME  \
+DR_NO                                                                       
+241412150  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...      Pacific   
+241705500                           VEHICLE - ATTEMPT STOLEN   Devonshire   
+240705331  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...     Wilshire   
+240504105  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...       Harbor   
+241900752  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...      Mission   
+...                                                      ...          ...   
+240700535                   BURGLARY FROM VEHICLE, ATTEMPTED     Wilshire   
+251304094  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...       Newton   
+251904073           VANDALISM - MISDEAMEANOR ($399 OR UNDER)      Mission   
+251004149  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...  West Valley   
+251604088  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...     Foothill   
+
+                                      Mocodes vict age range Vict Sex  \
+DR_NO                                                                   
+241412150                           0329 1300          adult        M   
+241705500                      1202 1609 0329          adult        M   
+240705331                           0329 1822          adult        M   
+240504105                                0329         senior        M   
+241900752                           0329 1402          adult        M   
+...                                       ...            ...      ...   
+240700535  1309 1300 1402 1605 0329 1822 0216          adult        M   
+251304094                                0329          adult        M   
+251904073                      1822 0329 1602         age_NA        F   
+251004149                      1822 1602 0329         age_NA        M   
+251604088                           0329 1300          adult        M   
+
+          Vict Descent                                     Weapon Desc  \
+DR_NO                                                                    
+241412150            W                                             NaN   
+241705500            O                                             NaN   
+240705331            H                                             NaN   
+240504105            H                                             NaN   
+241900752            X                                             NaN   
+...                ...                                             ...   
+240700535            W                                             NaN   
+251304094            H                                             NaN   
+251904073            H                                             NaN   
+251004149            H                                             NaN   
+251604088            H  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+
+           Premis Cd time_of_day  
+DR_NO                             
+241412150      101.0       night  
+241705500      101.0     evening  
+240705331      122.0       night  
+240504105      104.0   afternoon  
+241900752      108.0     evening  
+...              ...         ...  
+240700535      101.0       night  
+251304094      203.0       night  
+251904073      704.0   afternoon  
+251004149      721.0       night  
+251604088      122.0   afternoon  
+
+[9098 rows x 9 columns]
+Cluster 2
+                                                 Crm Cd Desc    AREA NAME  \
+DR_NO                                                                       
+242108414    THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)      Topanga   
+241010884                              BURGLARY FROM VEHICLE  West Valley   
+242113737                              BURGLARY FROM VEHICLE      Topanga   
+240311391                 THEFT PLAIN - PETTY ($950 & UNDER)    Southwest   
+241204442                                           BURGLARY  77th Street   
+...                                                      ...          ...   
+251904122                           VIOLATION OF COURT ORDER      Mission   
+252104112                          OTHER MISCELLANEOUS CRIME      Topanga   
+250404100                     CHILD NEGLECT (SEE 300 W.I.C.)   Hollenbeck   
+251004092  THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND ...  West Valley   
+252104053  THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LI...      Topanga   
+
+                                      Mocodes vict age range Vict Sex  \
+DR_NO                                                                   
+242108414  1606 0344 1402 0302 1822 1227 1420         age_NA        M   
+241010884                      1300 1822 0344          adult        M   
+242113737                      0352 0344 0386          adult        M   
+240311391                           0344 1822    young adult        M   
+241204442                 1822 0216 0344 1601          adult        M   
+...                                       ...            ...      ...   
+251904122                                2038          adult        M   
+252104112                                 NaN          adult        M   
+250404100                      1258 0553 0602          child        M   
+251004092                      1822 0344 0385         senior        M   
+252104053                                0344         age_NA        M   
+
+          Vict Descent Weapon Desc  Premis Cd time_of_day  
+DR_NO                                                      
+242108414            W    HAND GUN      101.0   afternoon  
+241010884            W         NaN      707.0     evening  
+242113737            W         NaN      108.0     evening  
+240311391            O         NaN      122.0       night  
+241204442            B         NaN      501.0       night  
+...                ...         ...        ...         ...  
+251904122            H         NaN      720.0   afternoon  
+252104112            X         NaN      101.0       night  
+250404100            B         NaN      501.0     morning  
+251004092            O         NaN      108.0   afternoon  
+252104053            W         NaN      720.0   afternoon  
+
+[28644 rows x 9 columns]
+Cluster 3
+                                                 Crm Cd Desc    AREA NAME  \
+DR_NO                                                                       
+241110315    THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)    Northeast   
+241712076                                   VEHICLE - STOLEN   Devonshire   
+241507368                                   VEHICLE - STOLEN  N Hollywood   
+240109492                                   VEHICLE - STOLEN      Central   
+241217745                                   VEHICLE - STOLEN  77th Street   
+...                                                      ...          ...   
+250504138  THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LI...       Harbor   
+250304184                                   VEHICLE - STOLEN    Southwest   
+250304214                                   VEHICLE - STOLEN    Southwest   
+250304203  VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, B...    Southwest   
+251604136                                   VEHICLE - STOLEN     Foothill   
+
+          Mocodes vict age range Vict Sex Vict Descent Weapon Desc  Premis Cd  \
+DR_NO                                                                           
+241110315     NaN         age_NA      NaN          NaN         NaN      101.0   
+241712076     NaN         age_NA      NaN          NaN         NaN      101.0   
+241507368     NaN         age_NA      NaN          NaN         NaN      101.0   
+240109492     NaN         age_NA      NaN          NaN         NaN      101.0   
+241217745     NaN         age_NA      NaN          NaN         NaN      101.0   
+...           ...            ...      ...          ...         ...        ...   
+250504138     NaN         age_NA      NaN          NaN         NaN      101.0   
+250304184     NaN         age_NA      NaN          NaN         NaN      501.0   
+250304214     NaN         age_NA      NaN          NaN         NaN      101.0   
+250304203     NaN         age_NA      NaN          NaN         NaN      108.0   
+251604136     NaN         age_NA      NaN          NaN         NaN      101.0   
+
+          time_of_day  
+DR_NO                  
+241110315   afternoon  
+241712076     evening  
+241507368       night  
+240109492   afternoon  
+241217745     evening  
+...               ...  
+250504138       night  
+250304184   afternoon  
+250304214   afternoon  
+250304203       night  
+251604136   afternoon  
+
+[29344 rows x 9 columns]
+Cluster 4
+                                                 Crm Cd Desc AREA NAME  \
+DR_NO                                                                    
+241408080                                           BURGLARY   Pacific   
+241406608                                      BIKE - STOLEN   Pacific   
+240216406                 THEFT PLAIN - PETTY ($950 & UNDER)   Rampart   
+241411263  THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND ...   Pacific   
+240105942                              BURGLARY FROM VEHICLE   Central   
+...                                                      ...       ...   
+252104125                     CHILD NEGLECT (SEE 300 W.I.C.)   Topanga   
+251304095                                  INDECENT EXPOSURE    Newton   
+250504249                 THEFT PLAIN - PETTY ($950 & UNDER)    Harbor   
+250504051                                            ROBBERY    Harbor   
+251904210                                  INDECENT EXPOSURE   Mission   
+
+                                           Mocodes vict age range Vict Sex  \
+DR_NO                                                                        
+241408080                                0344 1402          adult        F   
+241406608                                     0344          adult        F   
+240216406                                1822 0344          adult        F   
+241411263                                     0344          adult        F   
+240105942  0344 1300 1307 0329 0358 1302 1609 0352          adult        F   
+...                                            ...            ...      ...   
+252104125                                      NaN          child        F   
+251304095                                      NaN       teenager        F   
+250504249                                     0344          adult        F   
+250504051                           1822 0344 1259       teenager        F   
+251904210                      0529 2024 1815 0913          adult        F   
+
+          Vict Descent                                     Weapon Desc  \
+DR_NO                                                                    
+241408080            O                                             NaN   
+241406608            W                                             NaN   
+240216406            W                                             NaN   
+241411263            C                                             NaN   
+240105942            H                                             NaN   
+...                ...                                             ...   
+252104125            O                                             NaN   
+251304095            H                                             NaN   
+250504249            H                                             NaN   
+250504051            H  STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)   
+251904210            H                                             NaN   
+
+           Premis Cd time_of_day  
+DR_NO                             
+241408080      502.0     evening  
+241406608      507.0     morning  
+240216406      207.0       night  
+241411263      101.0       night  
+240105942      210.0     morning  
+...              ...         ...  
+252104125      101.0   afternoon  
+251304095      101.0   afternoon  
+250504249      721.0   afternoon  
+250504051      721.0   afternoon  
+251904210      721.0   afternoon  
+
+[23496 rows x 9 columns]
+Cluster 5
+                                                 Crm Cd Desc    AREA NAME  \
+DR_NO                                                                       
+240711485           SHOPLIFTING - PETTY THEFT ($950 & UNDER)     Wilshire   
+241507940  THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LI...  N Hollywood   
+241413885           SHOPLIFTING - PETTY THEFT ($950 & UNDER)      Pacific   
+240115793           SHOPLIFTING - PETTY THEFT ($950 & UNDER)      Central   
+241907238           SHOPLIFTING - PETTY THEFT ($950 & UNDER)      Mission   
+...                                                      ...          ...   
+240713147           SHOPLIFTING - PETTY THEFT ($950 & UNDER)     Wilshire   
+242110489           SHOPLIFTING - PETTY THEFT ($950 & UNDER)      Topanga   
+241504521           SHOPLIFTING - PETTY THEFT ($950 & UNDER)  N Hollywood   
+241413889           SHOPLIFTING - PETTY THEFT ($950 & UNDER)      Pacific   
+250304031           SHOPLIFTING - PETTY THEFT ($950 & UNDER)    Southwest   
+
+                  Mocodes vict age range Vict Sex Vict Descent Weapon Desc  \
+DR_NO                                                                        
+240711485       0325 1822         age_NA        X            X         NaN   
+241507940            0325         age_NA        M            O         NaN   
+241413885       0344 0325         age_NA        X            X         NaN   
+240115793  0344 1822 0325         age_NA        X            X         NaN   
+241907238       0325 2004         age_NA        M            O         NaN   
+...                   ...            ...      ...          ...         ...   
+240713147            0325    young adult        X            X         NaN   
+242110489       0325 0378         age_NA        M            W         NaN   
+241504521       1822 0325         age_NA        X            X         NaN   
+241413889       0344 0325         age_NA        X            X         NaN   
+250304031       0325 0104    young adult        X            X         NaN   
+
+           Premis Cd time_of_day  
+DR_NO                             
+240711485      404.0     morning  
+241507940      404.0     evening  
+241413885      402.0     morning  
+240115793      405.0     evening  
+241907238      301.0     morning  
+...              ...         ...  
+240713147      203.0   afternoon  
+242110489      406.0   afternoon  
+241504521      405.0     evening  
+241413889      202.0     evening  
+250304031      203.0     evening  
+
+[9359 rows x 9 columns]
+Cluster 6
+                                                 Crm Cd Desc   AREA NAME  \
+DR_NO                                                                      
+240316919                                        TRESPASSING   Southwest   
+240204915                                        TRESPASSING     Rampart   
+240113464                                        TRESPASSING     Central   
+240908543                                        TRESPASSING    Van Nuys   
+240806424                                           BURGLARY     West LA   
+...                                                      ...         ...   
+250404159                                           BURGLARY  Hollenbeck   
+251804121                 THEFT PLAIN - PETTY ($950 & UNDER)   Southeast   
+251804109           VANDALISM - MISDEAMEANOR ($399 OR UNDER)   Southeast   
+251804136  VANDALISM - FELONY ($400 & OVER, ALL CHURCH VA...   Southeast   
+251804147                                           BURGLARY   Southeast   
+
+                            Mocodes vict age range Vict Sex Vict Descent  \
+DR_NO                                                                      
+240316919                      0910    young adult        X            X   
+240204915                      0910         age_NA        X            X   
+240113464                 1501 0910         age_NA        X            X   
+240908543                      2004         age_NA        X            X   
+240806424       1609 1420 1822 0344         age_NA        X            X   
+...                             ...            ...      ...          ...   
+250404159                 0344 1602         age_NA        X            X   
+251804121                 1822 0344         age_NA        X            X   
+251804109  1822 0311 0329 0327 1300         age_NA        X            X   
+251804136                 1822 0329         age_NA        X            X   
+251804147                      0344         age_NA        X            X   
+
+                           Weapon Desc  Premis Cd time_of_day  
+DR_NO                                                          
+240316919                          NaN      101.0       night  
+240204915                          NaN      904.0     morning  
+240113464                          NaN      903.0     morning  
+240908543                          NaN      502.0       night  
+240806424  UNKNOWN WEAPON/OTHER WEAPON      203.0     morning  
+...                                ...        ...         ...  
+250404159                          NaN      720.0       night  
+251804121                          NaN      704.0   afternoon  
+251804109                          NaN      704.0     morning  
+251804136                          NaN      720.0     morning  
+251804147                          NaN      720.0       night  
+
+[11875 rows x 9 columns]
